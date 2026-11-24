@@ -1,0 +1,274 @@
+[
+  {
+    "id": "1",
+    "kind": "topic",
+    "title": "Alcohol & Drunkenness",
+    "summary": "Drunkenness is forbidden; Christian liberty is governed by wisdom and love.",
+    "verses": [
+      {
+        "ref": "Ephesians 5:18",
+        "note": "Read in context."
+      },
+      {
+        "ref": "Proverbs 20:1",
+        "note": "Read in context."
+      },
+      {
+        "ref": "Romans 14:21",
+        "note": "Read in context."
+      }
+    ],
+    "context": "Paul contrasts drunkenness with Spirit-filled living.",
+    "insights": [],
+    "distinction": "",
+    "draft": true
+  },
+  {
+    "id": "2",
+    "kind": "topic",
+    "title": "Marriage",
+    "summary": "Marriage calls for covenant faithfulness and sacrificial love.",
+    "verses": [
+      {
+        "ref": "Genesis 2:24",
+        "note": "Read in context."
+      },
+      {
+        "ref": "Matthew 19:4-6",
+        "note": "Read in context."
+      },
+      {
+        "ref": "Ephesians 5:25-33",
+        "note": "Read in context."
+      }
+    ],
+    "context": "Jesus appeals to creation when discussing marriage.",
+    "insights": [],
+    "distinction": "",
+    "draft": true
+  },
+  {
+    "id": "3",
+    "kind": "topic",
+    "title": "Anxiety",
+    "summary": "Bring worries to God in prayer and trust his care.",
+    "verses": [
+      {
+        "ref": "Matthew 6:25-34",
+        "note": "Read in context."
+      },
+      {
+        "ref": "Philippians 4:6-7",
+        "note": "Read in context."
+      },
+      {
+        "ref": "1 Peter 5:7",
+        "note": "Read in context."
+      }
+    ],
+    "context": "These passages encourage trust, not shame for experiencing anxiety.",
+    "insights": [],
+    "distinction": "",
+    "draft": true
+  },
+  {
+    "id": "4",
+    "kind": "topic",
+    "title": "Forgiveness",
+    "summary": "Christians are called to forgive as they have been forgiven.",
+    "verses": [
+      {
+        "ref": "Ephesians 4:32",
+        "note": "Read in context."
+      },
+      {
+        "ref": "Matthew 18:21-35",
+        "note": "Read in context."
+      },
+      {
+        "ref": "Colossians 3:13",
+        "note": "Read in context."
+      }
+    ],
+    "context": "Forgiveness does not necessarily remove consequences or require unsafe reconciliation.",
+    "insights": [],
+    "distinction": "",
+    "draft": true
+  },
+  {
+    "id": "5",
+    "kind": "topic",
+    "title": "Salvation",
+    "summary": "Salvation is by grace through faith, not earned by works.",
+    "verses": [
+      {
+        "ref": "Ephesians 2:8-10",
+        "note": "Read in context."
+      },
+      {
+        "ref": "Romans 3:21-26",
+        "note": "Read in context."
+      },
+      {
+        "ref": "Titus 3:4-7",
+        "note": "Read in context."
+      }
+    ],
+    "context": "Good works are the fruit of salvation.",
+    "insights": [],
+    "distinction": "",
+    "draft": true
+  },
+  {
+    "id": "6",
+    "kind": "topic",
+    "title": "Money & Wealth",
+    "summary": "Wealth is not ultimate security; practice generosity and contentment.",
+    "verses": [
+      {
+        "ref": "1 Timothy 6:6-10",
+        "note": "Read in context."
+      },
+      {
+        "ref": "Matthew 6:19-24",
+        "note": "Read in context."
+      },
+      {
+        "ref": "1 Timothy 6:17-19",
+        "note": "Read in context."
+      }
+    ],
+    "context": "The love of money, rather than money itself, is condemned.",
+    "insights": [],
+    "distinction": "",
+    "draft": true
+  },
+  {
+    "id": "7",
+    "kind": "topic",
+    "title": "Suffering",
+    "summary": "Believers can trust God amid suffering without denying its pain.",
+    "verses": [
+      {
+        "ref": "Romans 5:3-5",
+        "note": "Read in context."
+      },
+      {
+        "ref": "Romans 8:18-39",
+        "note": "Read in context."
+      },
+      {
+        "ref": "1 Peter 4:12-19",
+        "note": "Read in context."
+      }
+    ],
+    "context": "Christian hope does not promise immediate relief.",
+    "insights": [],
+    "distinction": "",
+    "draft": true
+  },
+  {
+    "id": "8",
+    "kind": "topic",
+    "title": "Judgment",
+    "summary": "Avoid hypocritical judgment while practicing righteous discernment.",
+    "verses": [
+      {
+        "ref": "Matthew 7:1-5",
+        "note": "Read in context."
+      },
+      {
+        "ref": "John 7:24",
+        "note": "Read in context."
+      },
+      {
+        "ref": "Galatians 6:1",
+        "note": "Read in context."
+      }
+    ],
+    "context": "Correction should begin with self-examination.",
+    "insights": [],
+    "distinction": "",
+    "draft": true
+  },
+  {
+    "id": "9",
+    "kind": "passage",
+    "title": "Philippians 4:13",
+    "summary": "Christ strengthens Paul to endure changing circumstances, not to achieve every ambition.",
+    "verses": [
+      {
+        "ref": "Philippians 4:10-13",
+        "note": "Read in context."
+      }
+    ],
+    "context": "Often treated as a promise of unlimited achievement; the context is contentment.",
+    "insights": [],
+    "distinction": "",
+    "draft": true
+  },
+  {
+    "id": "10",
+    "kind": "passage",
+    "title": "Matthew 7:1",
+    "summary": "Jesus condemns hypocritical judgment, not every moral assessment.",
+    "verses": [
+      {
+        "ref": "Matthew 7:1-5",
+        "note": "Read in context."
+      }
+    ],
+    "context": "Verse 5 calls for self-examination before helping another.",
+    "insights": [],
+    "distinction": "",
+    "draft": true
+  },
+  {
+    "id": "11",
+    "kind": "passage",
+    "title": "Jeremiah 29:11",
+    "summary": "God promises a future to the exiled community, not immediate individual prosperity.",
+    "verses": [
+      {
+        "ref": "Jeremiah 29:4-14",
+        "note": "Read in context."
+      }
+    ],
+    "context": "The promise addresses Judah in exile over a long period.",
+    "insights": [],
+    "distinction": "",
+    "draft": true
+  },
+  {
+    "id": "12",
+    "kind": "passage",
+    "title": "Matthew 18:20",
+    "summary": "Jesus promises his presence in the context of communal accountability and prayer.",
+    "verses": [
+      {
+        "ref": "Matthew 18:15-20",
+        "note": "Read in context."
+      }
+    ],
+    "context": "The passage does not imply Christ is absent when a believer prays alone.",
+    "insights": [],
+    "distinction": "",
+    "draft": true
+  },
+  {
+    "id": "13",
+    "kind": "passage",
+    "title": "Romans 8:28",
+    "summary": "God works for the good of his people, including conformity to Christ.",
+    "verses": [
+      {
+        "ref": "Romans 8:28-30",
+        "note": "Read in context."
+      }
+    ],
+    "context": "The good is not a guarantee of comfortable circumstances.",
+    "insights": [],
+    "distinction": "",
+    "draft": true
+  }
+]
