@@ -1,3 +1,15 @@
 *{box-sizing:border-box}body{margin:0;background:#f8f6ef;color:#192f28;font:16px system-ui,sans-serif}header{background:#192f28;color:#f8f6ef;padding:30px 24px 24px;padding-top:max(30px,env(safe-area-inset-top));}header i{color:#d5c49e;font-family:Georgia} .brand{font:38px Georgia;max-width:680px;margin:auto}.brand span{color:#c7ae79;float:right}header i{display:block;max-width:680px;margin:8px auto}main{max-width:680px;margin:auto;padding:24px 20px 110px}h1,h2{font-family:Georgia;font-weight:400}h1{font-size:32px;line-height:1.1;margin:0 0 22px}h2{font-size:23px}input,button{font:inherit;border-radius:12px;padding:13px;border:1px solid #d9dcd3}input{width:100%;background:white}button{cursor:pointer;color:#192f28;background:white}button.primary{background:#234536;color:white;width:100%;margin:12px 0}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:20px 0}.tile{text-align:left;min-height:78px;font-weight:600}.tile span{display:block;color:#a58c55;margin-bottom:8px}nav{position:fixed;bottom:0;background:#fff;display:flex;justify-content:center;width:100%;border-top:1px solid #ddd;padding:10px 8px max(10px,env(safe-area-inset-bottom));gap:10px}nav button{border:0;min-width:90px}nav button.active{background:#e5ebe2}article{background:white;padding:18px;border:1px solid #e0dfd5;border-radius:14px;margin:12px 0;line-height:1.55}a{color:#315f46}small,.muted{color:#657267} .error{color:#a23b2b} .row{display:flex;gap:8px;flex-wrap:wrap}details{margin:14px 0}summary{cursor:pointer;font-weight:600}
 
 textarea{width:100%;box-sizing:border-box;padding:12px;border:1px solid #aaa;border-radius:10px;font:inherit;margin:12px 0;}
+
+.tile, article { overflow-wrap: anywhere; }
+.verse { margin: .5em 0; }
+.verse sup { color: #657267; font-weight: 600; }
+blockquote { border-left: 3px solid #d5c49e; margin: 12px 0; padding-left: 12px; }
+article small + a { display: block; margin-top: 4px; }
+.lookup:not(:empty) { margin-top: 12px; }
+main > button:first-child { margin-bottom: 16px; }
+@media (max-width: 360px) {
+  nav { gap: 4px; }
+  nav button { min-width: 0; flex: 1; }
+}

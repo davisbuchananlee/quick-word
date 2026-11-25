@@ -1,1 +1,315 @@
-const main=document.querySelector('#main');let lib=[],tab='topic',fav=JSON.parse(localStorage.qwFav||'[]'),query='';const el=(tag,txt,cls)=>{let e=document.createElement(tag);if(txt)e.textContent=txt;if(cls)e.className=cls;return e};const add=(tag,txt,cls,parent=main)=>{let e=el(tag,txt,cls);parent.append(e);return e};const btn=(txt,fn,cls,parent=main)=>{let e=add('button',txt,cls,parent);e.onclick=fn;return e};async function load(){try{let r=await fetch('./seed.json');if(!r.ok)throw Error('Library unavailable');let seed=await r.json();localStorage.qwSeed=JSON.stringify(seed)}catch(e){}lib=[...JSON.parse(localStorage.qwSeed||'[]'),...JSON.parse(localStorage.qwPersonal||'[]')];render()}function render(){main.replaceChildren();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));add('h1',tab==='topic'?'What does the Bible say about...':tab==='passage'?'What does this passage really mean?':'Your saved references');let i=add('input');i.placeholder='Search topics or Scripture';i.value=query;let grid=add('div','','grid');function tiles(){grid.replaceChildren();lib.filter(x=>(tab==='saved'?fav.includes(x.id):x.kind===tab)&&JSON.stringify(x).toLowerCase().includes(query.toLowerCase())).sort((a,b)=>a.title.localeCompare(b.title)).forEach(x=>{let b=btn('',()=>detail(x),'tile',grid);add('span','✦','',b);b.append(document.createTextNode(x.title))});if(!grid.children.length)add('p','No matching entries.','muted',grid)}i.oninput=()=>{query=i.value;tiles()};tiles();if(tab!=='saved')btn(tab==='topic'?'+ Add a New Topic':'+ Add a Passage',generate,'primary');add('small','Starter library · entries marked for review are not independently verified.')}function detail(x,preview=false){main.replaceChildren();btn('← Back',render);add('h1',x.title);if(x.draft)add('small','Research draft · verify sources before relying on it');add('article',x.summary);add('h2','Key Scripture');for(const v of x.verses){let a=add('article');let l=add('a',v.ref+' · ESV','',a);l.href='https://www.esv.org/'+encodeURIComponent(v.ref)+'/';l.target='_blank';l.rel='noopener';add('p',v.note,'',a)}add('h2','Biblical context');add('article',x.context||'');if(x.insights?.length){add('h2','Theological insight');for(const s of x.insights){let a=add('article');add('strong',s.author,'',a);add('p',s.note,'',a);add('small',s.source||'','',a);if(/^https:\/\//.test(s.url||'')){let l=add('a',' Read source','',a);l.href=s.url;l.target='_blank';l.rel='noopener'}}}else add('p','Theological commentary not yet verified.','muted');if(x.distinction){add('h2','Important distinctions');add('article',x.distinction)}if(preview)btn('Save to my library',()=>{let personal=JSON.parse(localStorage.qwPersonal||'[]');personal.push(x);localStorage.qwPersonal=JSON.stringify(personal);lib.push(x);detail(x)},'primary');else btn(fav.includes(x.id)?'Remove from favorites':'Save to favorites',()=>{fav=fav.includes(x.id)?fav.filter(v=>v!==x.id):[...fav,x.id];localStorage.qwFav=JSON.stringify(fav);detail(x)},'primary')}function generate(){main.replaceChildren();btn('← Back',render);add('h1',tab==='topic'?'Add a new topic':'Add a passage');let kind=tab;let i=add('input');i.placeholder=kind==='topic'?'e.g. Gambling':'e.g. Hebrews 6:4–6';add('p','Copy the research prompt, open ChatGPT, then paste its JSON response below.');btn('Copy research prompt',async()=>{if(!i.value.trim())return;let prompt=`Research ${kind}: ${i.value}. Use a Reformed Protestant perspective, acknowledging orthodox disagreements. Select 3–5 relevant ESV references, explain context, distinguish explicit teaching from inference, verify sources using web research if available. Do not invent quotes or citations. Use attributed paraphrases with source URLs, omit unverified commentary. Return ONLY a JSON object with keys title, summary, verses (array of objects with ref and note), context, insights (array of objects with author, note, source, url), distinction. No markdown. For passages explain common misunderstanding. Do not reproduce copyrighted Bible text.`;try{await navigator.clipboard.writeText(prompt);add('p','Prompt copied. Open ChatGPT and paste it.')}catch(e){let t=add('textarea');t.value=prompt;t.select()}},'primary');let l=add('a','Open ChatGPT ↗');l.href='https://chatgpt.com/';l.target='_blank';l.rel='noopener';let t=add('textarea');t.placeholder='Paste the JSON response here';t.rows=10;btn('Preview entry',()=>{try{let x=JSON.parse(t.value.trim().replace(/^```(?:json)?\s*/i,'').replace(/\s*```$/,''));if(!x||typeof x.title!=='string'||typeof x.summary!=='string'||!Array.isArray(x.verses)||!x.verses.length||!x.verses.every(v=>v&&typeof v.ref==='string'&&typeof v.note==='string')||(x.insights&&!Array.isArray(x.insights)))throw Error('Invalid entry format');x.kind=kind;x.id=crypto.randomUUID();x.draft=true;detail(x,true)}catch(e){add('p','Could not read the entry. Ask ChatGPT for valid JSON only.','error')}},'primary');}document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{tab=b.dataset.tab;query='';render()});window.addEventListener('focus',()=>{if(document.querySelector('.grid'))load()});if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js');load();
+const main = document.querySelector('#main');
+const nav = [...document.querySelectorAll('nav button')];
+const storage = { favorites: 'qwFav', personal: 'qwPersonal', seed: 'qwSeed' };
+let library = [];
+let builtIn = [];
+let favorites = readList(storage.favorites);
+let bible = null;
+let tab = 'topic';
+let query = '';
+let ready = false;
+let returnScroll = 0;
+
+function readList(key) {
+  try {
+    const value = JSON.parse(localStorage.getItem(key));
+    return Array.isArray(value) ? value : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeList(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function add(tag, text, className, parent = main) {
+  const node = document.createElement(tag);
+  if (text) node.textContent = text;
+  if (className) node.className = className;
+  parent.append(node);
+  return node;
+}
+
+function button(text, action, className, parent = main) {
+  const node = add('button', text, className, parent);
+  node.type = 'button';
+  node.onclick = action;
+  return node;
+}
+
+function link(text, url, parent = main) {
+  if (typeof url !== 'string' || !/^https:\/\//i.test(url)) return;
+  if (/(?:^|\.)esv\.org$/i.test(new URL(url).hostname)) return;
+  const node = add('a', text, '', parent);
+  node.href = url;
+  node.target = '_blank';
+  node.rel = 'noopener noreferrer';
+}
+
+async function readFile(name) {
+  const response = await fetch('./' + name);
+  if (!response.ok) throw new Error(name);
+  return response.json();
+}
+
+async function load() {
+  const [seed, scripture] = await Promise.allSettled([readFile('seed.json'), readFile('bsb.json')]);
+  const entries = seed.status === 'fulfilled' ? seed.value : readList(storage.seed);
+  if (seed.status === 'fulfilled') writeList(storage.seed, entries);
+  if (scripture.status === 'fulfilled') bible = scripture.value;
+  builtIn = entries;
+  refreshLibrary();
+  ready = true;
+  render();
+}
+
+function refreshLibrary() {
+  library = [...builtIn, ...readList(storage.personal)].filter(entry => entry && typeof entry.title === 'string');
+}
+
+function normalized(text) {
+  return text.toLowerCase().replace(/[–—−]/g, '-').replace(/[’‘]/g, "'");
+}
+
+function lookup(reference) {
+  if (!bible) return null;
+  const match = /^(.+?)\s*(\d+)(?:\s*:\s*(\d+)(?:\s*-\s*(?:(\d+)\s*:\s*)?(\d+))?)?$/.exec(
+    normalized(reference.trim()).replace(/\./g, '')
+  );
+  if (!match) return null;
+  const [, book, firstChapter, startVerse, lastChapter, lastVerse] = match;
+  const bookKey = text => normalized(text).replace(/\s+/g, '');
+  const aliases = { ps: 'psalms', prov: 'proverbs', mt: 'matthew', mk: 'mark', lk: 'luke', jn: 'john', rom: 'romans', rev: 'revelation' };
+  const key = aliases[bookKey(book)] || bookKey(book);
+  const names = Object.entries(bible.books);
+  const exact = names.find(([name, code]) => [bookKey(name), bookKey(code)].includes(key));
+  const prefixes = names.filter(([name]) => key.length >= 2 && bookKey(name).startsWith(key));
+  const code = exact?.[1] || (prefixes.length === 1 ? prefixes[0][1] : null);
+  const chapters = bible.verses[code];
+  const start = Number(firstChapter);
+  const end = Number(lastChapter || firstChapter);
+  const first = Number(startVerse || 1);
+  const last = lastVerse ? Number(lastVerse) : startVerse ? first : Infinity;
+  if (!chapters?.[start] || !chapters[end] || !first || start > end || (start === end && first > last)) return null;
+  if ((startVerse && !chapters[start][first]) ||
+      (lastVerse && !chapters[end][last])) return null;
+  const result = [];
+  for (let chapter = start; chapter <= end; chapter++) {
+    for (const [number, text] of Object.entries(chapters[chapter])) {
+      if ((chapter === start && Number(number) < first) || (chapter === end && Number(number) > last)) continue;
+      result.push({ number: start === end ? number : chapter + ':' + number, text });
+    }
+  }
+  return result.length ? result : null;
+}
+
+function render() {
+  main.replaceChildren();
+  for (const control of nav) {
+    const selected = control.dataset.tab === tab;
+    control.classList.toggle('active', selected);
+    control.setAttribute('aria-pressed', String(selected));
+  }
+  add('h1', { topic: 'What does the Bible say about...', passage: 'What does this passage really mean?', saved: 'Your saved references' }[tab]);
+  if (!ready) {
+    add('p', 'Loading Quick Word…', 'muted');
+    return;
+  }
+  const input = add('input');
+  input.placeholder = 'Search topics or Scripture';
+  input.type = 'search';
+  input.setAttribute('aria-label', input.placeholder);
+  input.value = query;
+  const lookupRow = add('div', '', 'lookup');
+  const grid = add('div', '', 'grid');
+
+  function tiles() {
+    lookupRow.replaceChildren();
+    grid.replaceChildren();
+    const normalizedQuery = normalized(query.trim());
+    const verses = lookup(query);
+    if (verses) button('Read ' + query.trim() + ' · BSB', () => {
+      returnScroll = window.scrollY;
+      showDetail();
+      add('h1', query.trim());
+      scriptureCard({ ref: query.trim() }, verses);
+    }, '', lookupRow);
+
+    library.filter(entry => (tab === 'saved' ? favorites.includes(entry.id) : entry.kind === tab) &&
+      normalized(JSON.stringify(entry)).includes(normalizedQuery))
+      .sort((a, b) => a.title.localeCompare(b.title, undefined, { numeric: true }))
+      .forEach(entry => {
+        const tile = button('', () => {
+          returnScroll = window.scrollY;
+          detail(entry);
+        }, 'tile', grid);
+        add('span', '✦', '', tile).setAttribute('aria-hidden', 'true');
+        tile.append(document.createTextNode(entry.title));
+      });
+    if (!grid.children.length) add('p', tab === 'saved' && !normalizedQuery ? 'No favorites yet.' : 'No matching entries.', 'muted', grid);
+  }
+
+  input.oninput = () => {
+    query = input.value;
+    tiles();
+  };
+  tiles();
+  if (tab !== 'saved') button(tab === 'topic' ? '+ Add a New Topic' : '+ Add a Passage', generate, 'primary');
+  add('small', 'Scripture quotations from the Berean Standard Bible (BSB), public domain.');
+}
+
+function showDetail() {
+  main.replaceChildren();
+  button('← Back', () => {
+    render();
+    window.scrollTo(0, returnScroll);
+  });
+  window.scrollTo(0, 0);
+}
+
+function scriptureCard(verse, text = lookup(verse.ref)) {
+  const article = add('article');
+  add('strong', verse.ref + (text ? ' · BSB' : ''), '', article);
+  if (text) {
+    for (const line of text) {
+      const p = add('p', '', 'verse', article);
+      add('sup', line.number, '', p);
+      p.append(document.createTextNode(' ' + line.text));
+    }
+  } else {
+    add('p', bible ? 'Enter a specific Bible reference to read the BSB text.' : 'BSB text is unavailable on this visit.', 'muted', article);
+  }
+  if (verse.note) add('p', verse.note, 'muted', article);
+}
+
+function detail(entry, preview = false, resetScroll = true) {
+  const scroll = window.scrollY;
+  showDetail();
+  add('h1', entry.title);
+  if (entry.draft) add('small', 'Personal entry · verify sources before relying on them');
+  if (entry.summary) add('article', entry.summary);
+  add('h2', 'Key Scripture');
+  for (const verse of entry.verses || []) {
+    if (verse && typeof verse.ref === 'string') scriptureCard(verse);
+  }
+  if (entry.context) {
+    add('h2', 'Biblical context');
+    add('article', entry.context);
+  }
+  if (entry.distinction) {
+    add('h2', entry.draft ? 'Important distinctions' : 'Conclusion');
+    add('article', entry.distinction);
+  }
+  if (Array.isArray(entry.insights) && entry.insights.length) {
+    add('h2', 'Theological insight');
+    for (const insight of entry.insights.filter(Boolean)) {
+      const article = add('article');
+      add('strong', insight.author, '', article);
+      if (insight.quote) add('blockquote', '“' + insight.quote + '”', '', article);
+      if (insight.note) add('p', insight.note, '', article);
+      if (insight.source) add('small', insight.source, '', article);
+      try { link('Read source ↗', insight.url, article); } catch { /* Ignore malformed legacy URLs. */ }
+    }
+  }
+
+  if (preview) {
+    button('Save to my library', () => {
+      const personal = [...readList(storage.personal), entry];
+      if (!writeList(storage.personal, personal)) {
+        status.textContent = 'This browser could not save the entry.';
+        return;
+      }
+      library.push(entry);
+      detail(entry, false, false);
+    }, 'primary');
+  } else {
+    button(favorites.includes(entry.id) ? 'Remove from favorites' : 'Save to favorites', () => {
+      const current = readList(storage.favorites);
+      const next = current.includes(entry.id) ? current.filter(id => id !== entry.id) : [...current, entry.id];
+      if (!writeList(storage.favorites, next)) {
+        status.textContent = 'This browser could not save favorites.';
+        return;
+      }
+      favorites = next;
+      detail(entry, false, false);
+    }, 'primary');
+  }
+  const status = add('p', '', 'error');
+  status.setAttribute('role', 'status');
+  if (!resetScroll) window.scrollTo(0, scroll);
+}
+
+function generate() {
+  returnScroll = window.scrollY;
+  showDetail();
+  const kind = tab;
+  add('h1', kind === 'topic' ? 'Add a new topic' : 'Add a passage');
+  const title = add('input');
+  title.placeholder = kind === 'topic' ? 'e.g. Gambling' : 'e.g. Hebrews 6:4–6';
+  title.setAttribute('aria-label', kind === 'topic' ? 'Topic to research' : 'Passage to research');
+  add('p', 'Copy the research prompt, open ChatGPT, then paste its JSON response below.');
+  const promptStatus = add('p', '', 'muted');
+  promptStatus.setAttribute('role', 'status');
+  button('Copy research prompt', async () => {
+    if (!title.value.trim()) {
+      promptStatus.textContent = 'Enter a topic or passage first.';
+      title.focus();
+      return;
+    }
+    const prompt = `Research this Bible ${kind}: ${title.value.trim()}. Use a Reformed Protestant perspective and acknowledge major interpretive disagreements. Include the biblical context and conclusion. Supply 1–3 authentic quotations checked against direct online sources. Omit any unverified quotation. Use standard Scripture references in English with verse ranges. Quick Word displays BSB text locally. Return a single JSON object with title, summary, verses (objects with ref and note), context, insights (objects with author, quote, source, url), and distinction.`;
+    try {
+      await navigator.clipboard.writeText(prompt);
+      promptStatus.textContent = 'Prompt copied.';
+    } catch {
+      const copy = add('textarea', '', '', promptStatus);
+      copy.value = prompt;
+      copy.setAttribute('aria-label', 'Research prompt');
+      copy.select();
+    }
+  }, 'primary');
+  link('Open ChatGPT ↗', 'https://chatgpt.com/');
+  const input = add('textarea');
+  input.placeholder = 'Paste the JSON response here';
+  input.setAttribute('aria-label', 'Custom entry JSON');
+  input.rows = 10;
+  button('Preview entry', () => {
+    try {
+      const entry = JSON.parse(input.value.trim().replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, ''));
+      if (!entry || typeof entry.title !== 'string' || !entry.title.trim() || typeof entry.summary !== 'string' ||
+          !Array.isArray(entry.verses) || !entry.verses.length ||
+          !entry.verses.every(verse => verse && typeof verse.ref === 'string' && typeof verse.note === 'string') ||
+          (entry.insights && !Array.isArray(entry.insights))) throw new Error('Invalid entry');
+      detail({ ...entry, id: crypto.randomUUID(), kind, draft: true }, true);
+    } catch {
+      status.textContent = 'Could not read the entry. Paste a complete JSON object in the requested format.';
+    }
+  }, 'primary');
+  const status = add('p', '', 'error');
+  status.setAttribute('role', 'status');
+}
+
+for (const control of nav) {
+  control.onclick = () => {
+    tab = control.dataset.tab;
+    query = '';
+    window.scrollTo(0, 0);
+    render();
+  };
+}
+
+window.addEventListener('storage', event => {
+  if (event.key !== storage.favorites && event.key !== storage.personal) return;
+  favorites = readList(storage.favorites);
+  refreshLibrary();
+  if (document.querySelector('.grid')) render();
+});
+
+render();
+load();
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(console.error);

@@ -7,21 +7,27 @@
     "verses": [
       {
         "ref": "Ephesians 5:18",
-        "note": "Read in context."
+        "note": ""
       },
       {
         "ref": "Proverbs 20:1",
-        "note": "Read in context."
+        "note": ""
       },
       {
         "ref": "Romans 14:21",
-        "note": "Read in context."
+        "note": ""
       }
     ],
-    "context": "Paul contrasts drunkenness with Spirit-filled living.",
-    "insights": [],
-    "distinction": "",
-    "draft": true
+    "context": "Paul describes a Spirit-filled community through worship, thanksgiving, and mutual submission in 5:19–21.",
+    "distinction": "Reject drunkenness and let wisdom and love govern decisions about drinking (Romans 14:21).",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Ephesians 5",
+        "url": "https://bible.helloao.org/api/c/john-calvin/EPH/5.json",
+        "quote": "he forbids excessive and immoderate drinking of every description"
+      }
+    ]
   },
   {
     "id": "2",
@@ -30,22 +36,28 @@
     "summary": "Marriage calls for covenant faithfulness and sacrificial love.",
     "verses": [
       {
-        "ref": "Genesis 2:24",
-        "note": "Read in context."
+        "ref": "Matthew 19:4-6",
+        "note": ""
       },
       {
-        "ref": "Matthew 19:4-6",
-        "note": "Read in context."
+        "ref": "Genesis 2:24",
+        "note": ""
       },
       {
         "ref": "Ephesians 5:25-33",
-        "note": "Read in context."
+        "note": ""
       }
     ],
-    "context": "Jesus appeals to creation when discussing marriage.",
-    "insights": [],
-    "distinction": "",
-    "draft": true
+    "context": "Jesus answers a question about divorce by bringing his hearers back to the creation of husband and wife in Genesis 2.",
+    "distinction": "Treat marriage as a covenant of lifelong fidelity and practice the self-giving love described in Ephesians 5:25.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Matthew 19",
+        "url": "https://bible.helloao.org/api/c/john-calvin/MAT/19.json",
+        "quote": "that every man should sacredly observe the promise which he has given"
+      }
+    ]
   },
   {
     "id": "3",
@@ -54,22 +66,28 @@
     "summary": "Bring worries to God in prayer and trust his care.",
     "verses": [
       {
-        "ref": "Matthew 6:25-34",
-        "note": "Read in context."
+        "ref": "Philippians 4:6-7",
+        "note": ""
       },
       {
-        "ref": "Philippians 4:6-7",
-        "note": "Read in context."
+        "ref": "Matthew 6:25-34",
+        "note": ""
       },
       {
         "ref": "1 Peter 5:7",
-        "note": "Read in context."
+        "note": ""
       }
     ],
-    "context": "These passages encourage trust, not shame for experiencing anxiety.",
-    "insights": [],
-    "distinction": "",
-    "draft": true
+    "context": "Paul connects prayer and thanksgiving to the nearness of the Lord and the peace that guards believers.",
+    "distinction": "Bring concrete needs to God. The passage encourages anxious people to pray and receive care.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Philippians 4",
+        "url": "https://bible.helloao.org/api/c/john-gill/PHP/4.json",
+        "quote": "There are many things that saints are to be careful for"
+      }
+    ]
   },
   {
     "id": "4",
@@ -78,22 +96,32 @@
     "summary": "Christians are called to forgive as they have been forgiven.",
     "verses": [
       {
+        "ref": "Ephesians 4:31-32",
+        "note": ""
+      },
+      {
         "ref": "Ephesians 4:32",
-        "note": "Read in context."
+        "note": ""
       },
       {
         "ref": "Matthew 18:21-35",
-        "note": "Read in context."
+        "note": ""
       },
       {
         "ref": "Colossians 3:13",
-        "note": "Read in context."
+        "note": ""
       }
     ],
-    "context": "Forgiveness does not necessarily remove consequences or require unsafe reconciliation.",
-    "insights": [],
-    "distinction": "",
-    "draft": true
+    "context": "Paul contrasts destructive speech and bitterness with the practices of a community renewed in Christ.",
+    "distinction": "God’s forgiveness grounds ours. Forgiving someone can coexist with accountability and appropriate boundaries.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Ephesians 4",
+        "url": "https://bible.helloao.org/api/c/john-gill/EPH/4.json",
+        "quote": "they should forgive, and should pray to God for one another"
+      }
+    ]
   },
   {
     "id": "5",
@@ -103,21 +131,27 @@
     "verses": [
       {
         "ref": "Ephesians 2:8-10",
-        "note": "Read in context."
+        "note": ""
       },
       {
         "ref": "Romans 3:21-26",
-        "note": "Read in context."
+        "note": ""
       },
       {
         "ref": "Titus 3:4-7",
-        "note": "Read in context."
+        "note": ""
       }
     ],
-    "context": "Good works are the fruit of salvation.",
-    "insights": [],
-    "distinction": "",
-    "draft": true
+    "context": "Paul moves from spiritual death to God making sinners alive with Christ, then identifies the purpose of that grace.",
+    "distinction": "Receive salvation by faith as God’s gift. Good works are its intended fruit.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Ephesians 2",
+        "url": "https://bible.helloao.org/api/c/john-calvin/EPH/2.json",
+        "quote": "salvation is not a reward or recompense, but unmixed grace"
+      }
+    ]
   },
   {
     "id": "6",
@@ -127,21 +161,27 @@
     "verses": [
       {
         "ref": "1 Timothy 6:6-10",
-        "note": "Read in context."
+        "note": ""
       },
       {
         "ref": "Matthew 6:19-24",
-        "note": "Read in context."
+        "note": ""
       },
       {
         "ref": "1 Timothy 6:17-19",
-        "note": "Read in context."
+        "note": ""
       }
     ],
-    "context": "The love of money, rather than money itself, is condemned.",
-    "insights": [],
-    "distinction": "",
-    "draft": true
+    "context": "Paul corrects teachers who see godliness as a route to financial gain and reminds Timothy of human mortality.",
+    "distinction": "Practice contentment and heed Paul’s call for the wealthy to be generous in verses 17–19.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · 1 Timothy 6",
+        "url": "https://bible.helloao.org/api/c/john-gill/1TI/6.json",
+        "quote": "it is an immoderate insatiable desire after it"
+      }
+    ]
   },
   {
     "id": "7",
@@ -151,21 +191,27 @@
     "verses": [
       {
         "ref": "Romans 5:3-5",
-        "note": "Read in context."
+        "note": ""
       },
       {
         "ref": "Romans 8:18-39",
-        "note": "Read in context."
+        "note": ""
       },
       {
         "ref": "1 Peter 4:12-19",
-        "note": "Read in context."
+        "note": ""
       }
     ],
-    "context": "Christian hope does not promise immediate relief.",
-    "insights": [],
-    "distinction": "",
-    "draft": true
+    "context": "The chain from suffering to hope follows Paul’s assurance of peace with God through justification.",
+    "distinction": "Endurance grows under pressure, and hope rests in God’s love poured out by the Spirit.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Romans 5",
+        "url": "https://bible.helloao.org/api/c/john-calvin/ROM/5.json",
+        "quote": "all the sorrows we endure contribute to our salvation and final good"
+      }
+    ]
   },
   {
     "id": "8",
@@ -175,21 +221,27 @@
     "verses": [
       {
         "ref": "Matthew 7:1-5",
-        "note": "Read in context."
+        "note": ""
       },
       {
         "ref": "John 7:24",
-        "note": "Read in context."
+        "note": ""
       },
       {
         "ref": "Galatians 6:1",
-        "note": "Read in context."
+        "note": ""
       }
     ],
-    "context": "Correction should begin with self-examination.",
-    "insights": [],
-    "distinction": "",
-    "draft": true
+    "context": "Jesus uses the plank and speck to expose the hypocrisy of a critic who ignores his own fault.",
+    "distinction": "Start with self-examination and offer correction humbly, as Galatians 6:1 also teaches.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Matthew 7",
+        "url": "https://bible.helloao.org/api/c/john-gill/MAT/7.json",
+        "quote": "rash judgment, interpreting men's words and deeds to the worst sense"
+      }
+    ]
   },
   {
     "id": "9",
@@ -199,13 +251,19 @@
     "verses": [
       {
         "ref": "Philippians 4:10-13",
-        "note": "Read in context."
+        "note": ""
       }
     ],
-    "context": "Often treated as a promise of unlimited achievement; the context is contentment.",
-    "insights": [],
-    "distinction": "",
-    "draft": true
+    "context": "Paul is thanking the Philippians for their support. The preceding verse names hunger and plenty as circumstances he has learned to face.",
+    "distinction": "Christ supplies strength for contentment in need and abundance. Paul is describing endurance through both circumstances.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Philippians 4",
+        "url": "https://bible.helloao.org/api/c/john-gill/PHP/4.json",
+        "quote": "how to behave himself in adversity and prosperity"
+      }
+    ]
   },
   {
     "id": "10",
@@ -215,13 +273,19 @@
     "verses": [
       {
         "ref": "Matthew 7:1-5",
-        "note": "Read in context."
+        "note": ""
       }
     ],
-    "context": "Verse 5 calls for self-examination before helping another.",
-    "insights": [],
-    "distinction": "",
-    "draft": true
+    "context": "The warning about judgment leads to a picture of a man removing his own plank so he can see clearly to help his brother.",
+    "distinction": "Jesus requires honest self-judgment and mercy in correction. The rest of the chapter still calls for discernment.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Matthew 7",
+        "url": "https://bible.helloao.org/api/c/john-calvin/MAT/7.json",
+        "quote": "always begins with subjecting himself to examination, and preserves a proper medium and order in his judgments"
+      }
+    ]
   },
   {
     "id": "11",
@@ -231,13 +295,19 @@
     "verses": [
       {
         "ref": "Jeremiah 29:4-14",
-        "note": "Read in context."
+        "note": ""
       }
     ],
-    "context": "The promise addresses Judah in exile over a long period.",
-    "insights": [],
-    "distinction": "",
-    "draft": true
+    "context": "Jeremiah writes to Judean exiles. They must settle in Babylon and seek its welfare during a long exile before God brings his people back.",
+    "distinction": "Read the promise as God’s pledge to his exiled people. It gives grounds for hope during a long wait.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Jeremiah 29",
+        "url": "https://bible.helloao.org/api/c/john-gill/JER/29.json",
+        "quote": "The purposes and resolutions of his heart concerning their welfare, particularly the restoration of them to their own land"
+      }
+    ]
   },
   {
     "id": "12",
@@ -247,13 +317,19 @@
     "verses": [
       {
         "ref": "Matthew 18:15-20",
-        "note": "Read in context."
+        "note": ""
       }
     ],
-    "context": "The passage does not imply Christ is absent when a believer prays alone.",
-    "insights": [],
-    "distinction": "",
-    "draft": true
+    "context": "The two or three appear in a section about confronting sin, bringing witnesses, and involving the church.",
+    "distinction": "Jesus assures disciples of his presence as they carry out this difficult work together in his name.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Matthew 18",
+        "url": "https://bible.helloao.org/api/c/john-calvin/MAT/18.json",
+        "quote": "therefore no reason to doubt that those who give themselves up to his direction will derive most desirable advantage from his presence"
+      }
+    ]
   },
   {
     "id": "13",
@@ -263,12 +339,1932 @@
     "verses": [
       {
         "ref": "Romans 8:28-30",
-        "note": "Read in context."
+        "note": ""
       }
     ],
-    "context": "The good is not a guarantee of comfortable circumstances.",
-    "insights": [],
-    "distinction": "",
-    "draft": true
+    "context": "The surrounding passage speaks of groaning, weakness, and the Spirit’s intercession. Verse 29 identifies conformity to Christ as God’s purpose.",
+    "distinction": "God can work through genuine losses for the ultimate good of his people.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Romans 8",
+        "url": "https://bible.helloao.org/api/c/john-calvin/ROM/8.json",
+        "quote": "though God does not immediately succour his people, he yet does not forsake them"
+      }
+    ]
+  },
+  {
+    "id": "topic-prayer",
+    "kind": "topic",
+    "title": "Prayer",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Matthew 6:5-13",
+        "note": ""
+      }
+    ],
+    "context": "In the Sermon on the Mount Jesus contrasts prayer to the Father with prayer performed for an audience.",
+    "distinction": "Let the Father’s name and kingdom order requests for daily bread, pardon, and protection.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Matthew 6",
+        "url": "https://bible.helloao.org/api/c/john-calvin/MAT/6.json",
+        "quote": "if they wish to pray in a right manner, to enter into their closet"
+      }
+    ]
+  },
+  {
+    "id": "topic-repentance",
+    "kind": "topic",
+    "title": "Repentance",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "2 Corinthians 7:8-11",
+        "note": ""
+      }
+    ],
+    "context": "Paul describes how the Corinthians responded to his painful letter by taking their wrongdoing seriously.",
+    "distinction": "Godly grief moves toward repentance. Evaluate sorrow by the response it produces.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · 2 Corinthians 7",
+        "url": "https://bible.helloao.org/api/c/john-gill/2CO/7.json",
+        "quote": "a sorrow for sin, because it was committed against a God of infinite holiness, justice, and truth, goodness, grace, and mercy"
+      }
+    ]
+  },
+  {
+    "id": "topic-faith",
+    "kind": "topic",
+    "title": "Faith",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Hebrews 11:1-6",
+        "note": ""
+      }
+    ],
+    "context": "Hebrews urges a pressured congregation to persevere and then recalls believers who relied on God’s promises.",
+    "distinction": "Trust God’s character even when the outcome remains unseen.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Hebrews 11",
+        "url": "https://bible.helloao.org/api/c/john-calvin/HEB/11.json",
+        "quote": "faith can be no more separated from patience than from itself"
+      }
+    ]
+  },
+  {
+    "id": "topic-grace",
+    "kind": "topic",
+    "title": "Grace",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Titus 2:11-14",
+        "note": ""
+      }
+    ],
+    "context": "The appearance of grace teaches believers how to live as they await Christ’s appearing.",
+    "distinction": "Grace pardons sinners and trains them in holiness.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Titus 2",
+        "url": "https://bible.helloao.org/api/c/john-gill/TIT/2.json",
+        "quote": "instructs in real piety, and constrains to obedience to the will of God"
+      }
+    ]
+  },
+  {
+    "id": "topic-hope",
+    "kind": "topic",
+    "title": "Hope",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "1 Peter 1:3-9",
+        "note": ""
+      }
+    ],
+    "context": "Peter writes to scattered believers facing trials and identifies Jesus’ resurrection as the ground of their hope.",
+    "distinction": "Anchor hope in the inheritance God keeps and in the risen Christ.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · 1 Peter 1",
+        "url": "https://bible.helloao.org/api/c/john-gill/1PE/1.json",
+        "quote": "the resurrection of Christ is what is the means of, and lays a solid foundation of hope"
+      }
+    ]
+  },
+  {
+    "id": "topic-love-of-neighbor",
+    "kind": "topic",
+    "title": "Love of Neighbor",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Luke 10:25-37",
+        "note": ""
+      }
+    ],
+    "context": "A lawyer asks whom he must count as a neighbor. Jesus describes a Samaritan who crosses social boundaries to help a wounded man.",
+    "distinction": "Show mercy to the person in need, including across divisions.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Luke 10",
+        "url": "https://bible.helloao.org/api/c/john-gill/LUK/10.json",
+        "quote": "such like acts of beneficence and kindness, though to a person of a different nation and religion, and though even an enemy"
+      }
+    ]
+  },
+  {
+    "id": "topic-humility",
+    "kind": "topic",
+    "title": "Humility",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Philippians 2:3-11",
+        "note": ""
+      }
+    ],
+    "context": "Paul appeals for unity and presents Christ’s self-emptying path of servanthood and obedience.",
+    "distinction": "Use status and ability for others’ good as you follow Christ’s example.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Philippians 2",
+        "url": "https://bible.helloao.org/api/c/john-gill/PHP/2.json",
+        "quote": "This grace of humility is an excellent ornament to a Christian, and wonderfully useful in Christian societies."
+      }
+    ]
+  },
+  {
+    "id": "topic-wisdom",
+    "kind": "topic",
+    "title": "Wisdom",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "James 1:2-8",
+        "note": ""
+      }
+    ],
+    "context": "James places the prayer for wisdom in a discussion of trials and endurance.",
+    "distinction": "Ask God for wisdom to act faithfully under pressure.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · James 1",
+        "url": "https://bible.helloao.org/api/c/john-gill/JAS/1.json",
+        "quote": "it intends wisdom to behave aright under temptations or afflictions"
+      }
+    ]
+  },
+  {
+    "id": "topic-temptation",
+    "kind": "topic",
+    "title": "Temptation",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "1 Corinthians 10:6-14",
+        "note": ""
+      }
+    ],
+    "context": "Paul recalls Israel’s failures as warnings to a church tempted by idolatry.",
+    "distinction": "Take temptation seriously, trust God’s faithfulness, and act on the escape he provides.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · 1 Corinthians 10",
+        "url": "https://bible.helloao.org/api/c/john-calvin/1CO/10.json",
+        "quote": "they are a lesson to us, that we may not provoke the anger of God as they did"
+      }
+    ]
+  },
+  {
+    "id": "topic-anger",
+    "kind": "topic",
+    "title": "Anger",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "James 1:19-21",
+        "note": ""
+      }
+    ],
+    "context": "James links listening, restraint in speech, and putting away wickedness to receiving God’s word.",
+    "distinction": "Slow your response and test anger against the righteousness God desires.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · James 1",
+        "url": "https://bible.helloao.org/api/c/john-gill/JAS/1.json",
+        "quote": "wholesome advice, good instructions, and the gracious experiences of the saints"
+      }
+    ]
+  },
+  {
+    "id": "topic-speech",
+    "kind": "topic",
+    "title": "Speech",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "James 3:1-12",
+        "note": ""
+      }
+    ],
+    "context": "James begins by warning teachers, then shows how a small tongue can direct or damage a whole community.",
+    "distinction": "Let the dignity of people made in God’s likeness govern how you speak about them.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · James 3",
+        "url": "https://bible.helloao.org/api/c/john-gill/JAS/3.json",
+        "quote": "he proceeds to consider the evidence of a religious man, suggested in James 1:26 who is one that bridles the tongue"
+      }
+    ]
+  },
+  {
+    "id": "topic-work",
+    "kind": "topic",
+    "title": "Work",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Colossians 3:22-24",
+        "note": ""
+      }
+    ],
+    "context": "Paul addresses enslaved people within a Roman household code and reminds them that Christ sees their labor and promises an inheritance.",
+    "distinction": "Work with integrity before Christ, and read this alongside the duty of justice in 4:1.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Colossians 3",
+        "url": "https://bible.helloao.org/api/c/john-gill/COL/3.json",
+        "quote": "they appear to concern servants only, and what they do under that character, and under the discharge of their duty"
+      }
+    ]
+  },
+  {
+    "id": "topic-rest-sabbath",
+    "kind": "topic",
+    "title": "Rest & Sabbath",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Mark 2:23-28",
+        "note": ""
+      }
+    ],
+    "context": "The Pharisees challenge the disciples for plucking grain on the Sabbath, and Jesus appeals to David’s need.",
+    "distinction": "Honor the purpose of God’s gift of rest under the authority of the Lord of the Sabbath.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Mark 2",
+        "url": "https://bible.helloao.org/api/c/john-gill/MRK/2.json",
+        "quote": "he might have an opportunity of attending divine worship, both in public and private"
+      }
+    ]
+  },
+  {
+    "id": "topic-generosity",
+    "kind": "topic",
+    "title": "Generosity",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "2 Corinthians 9:6-11",
+        "note": ""
+      }
+    ],
+    "context": "Paul is organizing a collection for believers in need and asks the Corinthians to give willingly.",
+    "distinction": "Give cheerfully according to your means and use God’s provision to meet others’ needs.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · 2 Corinthians 9",
+        "url": "https://bible.helloao.org/api/c/john-calvin/2CO/9.json",
+        "quote": "He now commends alms-giving by a beautiful similitude, comparing it to sowing"
+      }
+    ]
+  },
+  {
+    "id": "topic-contentment",
+    "kind": "topic",
+    "title": "Contentment",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "1 Timothy 6:6-8",
+        "note": ""
+      }
+    ],
+    "context": "Paul pairs godliness with contentment as he corrects teachers who turn religion into a means of gain.",
+    "distinction": "Receive ordinary provision gratefully and resist measuring spiritual health by wealth.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · 1 Timothy 6",
+        "url": "https://bible.helloao.org/api/c/john-gill/1TI/6.json",
+        "quote": "as it shows itself in outward worship, and in all acts of holiness"
+      }
+    ]
+  },
+  {
+    "id": "topic-hospitality",
+    "kind": "topic",
+    "title": "Hospitality",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Romans 12:9-13",
+        "note": ""
+      }
+    ],
+    "context": "Paul describes how genuine love becomes visible in the life of the church.",
+    "distinction": "Share resources with believers in need and actively make room for guests.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Romans 12",
+        "url": "https://bible.helloao.org/api/c/john-calvin/ROM/12.json",
+        "quote": "all disguises are to be cast aside, and that love is to arise from pure sincerity of mind"
+      }
+    ]
+  },
+  {
+    "id": "topic-church-unity",
+    "kind": "topic",
+    "title": "Church Unity",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Ephesians 4:1-6",
+        "note": ""
+      }
+    ],
+    "context": "After describing God’s saving work, Paul appeals for a way of life consistent with their calling.",
+    "distinction": "Maintain Spirit-given unity through patience, humility, and shared allegiance to one Lord.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Ephesians 4",
+        "url": "https://bible.helloao.org/api/c/john-gill/EPH/4.json",
+        "quote": "supposes that this union does already exist"
+      }
+    ]
+  },
+  {
+    "id": "topic-spiritual-gifts",
+    "kind": "topic",
+    "title": "Spiritual Gifts",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "1 Corinthians 12:4-11",
+        "note": ""
+      }
+    ],
+    "context": "Paul traces diverse gifts to the same Spirit and says their purpose is the common good.",
+    "distinction": "Use gifts to serve the church. The Spirit decides how to distribute them.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · 1 Corinthians 12",
+        "url": "https://bible.helloao.org/api/c/john-calvin/1CO/12.json",
+        "quote": "it is befitting that there should be a distinction of gifts as well as of offices, and yet all harmonize in one"
+      }
+    ]
+  },
+  {
+    "id": "topic-baptism",
+    "kind": "topic",
+    "title": "Baptism",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Romans 6:1-4",
+        "note": ""
+      }
+    ],
+    "context": "Paul appeals to baptism while answering whether grace gives permission to continue in sin.",
+    "distinction": "Baptism points to Christ’s death and resurrection and calls the baptized to walk in new life. Christians differ on subjects and mode.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Romans 6",
+        "url": "https://bible.helloao.org/api/c/john-calvin/ROM/6.json",
+        "quote": "they who imagine that gratuitous righteousness is given us by him, apart from newness of life, shamefully rend Christ asunder"
+      }
+    ]
+  },
+  {
+    "id": "topic-lord-s-supper",
+    "kind": "topic",
+    "title": "Lord’s Supper",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "1 Corinthians 11:23-29",
+        "note": ""
+      }
+    ],
+    "context": "The Corinthians’ divisions and unequal meals prompt Paul to recall the Lord’s institution of the Supper.",
+    "distinction": "The Supper proclaims Christ’s death and calls the church to self-examination and regard for fellow believers.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · 1 Corinthians 11",
+        "url": "https://bible.helloao.org/api/c/john-gill/1CO/11.json",
+        "quote": "a remembrance of Christ, and a declaration of his sufferings and death"
+      }
+    ]
+  },
+  {
+    "id": "topic-resurrection",
+    "kind": "topic",
+    "title": "Resurrection",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "1 Corinthians 15:12-22",
+        "note": ""
+      }
+    ],
+    "context": "Paul reasons from Christ’s resurrection to the future of believers, drawing a contrast between Adam and Christ.",
+    "distinction": "Christian hope depends on Christ’s bodily resurrection and looks to the resurrection of his people.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · 1 Corinthians 15",
+        "url": "https://bible.helloao.org/api/c/john-calvin/1CO/15.json",
+        "quote": "He now begins to prove the resurrection of all of us from that of Christ"
+      }
+    ]
+  },
+  {
+    "id": "topic-trinity",
+    "kind": "topic",
+    "title": "Trinity",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Matthew 28:18-20",
+        "note": ""
+      }
+    ],
+    "context": "The risen Jesus commands disciples to baptize in the singular name of the Father, Son, and Holy Spirit.",
+    "distinction": "The church confesses one God and distinguishes the Father, Son, and Spirit named together here.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Matthew 28",
+        "url": "https://bible.helloao.org/api/c/john-gill/MAT/28.json",
+        "quote": "by the authority of these three divine persons"
+      }
+    ]
+  },
+  {
+    "id": "topic-deity-of-christ",
+    "kind": "topic",
+    "title": "Deity of Christ",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "John 1:1-5",
+        "note": ""
+      }
+    ],
+    "context": "John opens with language recalling Genesis, presenting the Word as already present when creation began.",
+    "distinction": "The Word who becomes flesh in verse 14 is distinct from the Father and fully divine.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · John 1",
+        "url": "https://bible.helloao.org/api/c/john-calvin/JHN/1.json",
+        "quote": "In this introduction he asserts the eternal Divinity of Christ"
+      }
+    ]
+  },
+  {
+    "id": "topic-holy-spirit",
+    "kind": "topic",
+    "title": "Holy Spirit",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "John 14:15-17",
+        "note": ""
+      }
+    ],
+    "context": "On the eve of his death, Jesus promises disciples another Advocate who will remain with them.",
+    "distinction": "Receive the Spirit as God’s abiding presence with Christ’s people.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · John 14",
+        "url": "https://bible.helloao.org/api/c/john-gill/JHN/14.json",
+        "quote": "by opening and applying the precious promises of the Gospel to them"
+      }
+    ]
+  },
+  {
+    "id": "topic-assurance",
+    "kind": "topic",
+    "title": "Assurance",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "1 John 5:11-13",
+        "note": ""
+      }
+    ],
+    "context": "John explains why he writes to people already believing in the Son.",
+    "distinction": "Assurance rests in God’s testimony that eternal life is in his Son.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · 1 John 5",
+        "url": "https://bible.helloao.org/api/c/john-gill/1JN/5.json",
+        "quote": "The sum and substance of it, with respect to the person of Christ, and the security of salvation in him"
+      }
+    ]
+  },
+  {
+    "id": "topic-sanctification",
+    "kind": "topic",
+    "title": "Sanctification",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "1 Thessalonians 4:1-8",
+        "note": ""
+      }
+    ],
+    "context": "Paul applies the call to please God to sexual conduct and regard for others.",
+    "distinction": "Grow in holiness in embodied, everyday choices with the help of the Spirit God gives.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · 1 Thessalonians 4",
+        "url": "https://bible.helloao.org/api/c/john-gill/1TH/4.json",
+        "quote": "External sanctification arises from this, and lies in holiness of life and conversation"
+      }
+    ]
+  },
+  {
+    "id": "topic-adoption",
+    "kind": "topic",
+    "title": "Adoption",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Romans 8:14-17",
+        "note": ""
+      }
+    ],
+    "context": "Paul contrasts fear in slavery with the family status of those led by the Spirit.",
+    "distinction": "Believers approach God as Father and share Christ’s inheritance as they follow him through suffering.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Romans 8",
+        "url": "https://bible.helloao.org/api/c/john-calvin/ROM/8.json",
+        "quote": "by this mark God acknowledges them as his own people"
+      }
+    ]
+  },
+  {
+    "id": "topic-justification",
+    "kind": "topic",
+    "title": "Justification",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Romans 3:21-26",
+        "note": ""
+      }
+    ],
+    "context": "After charging Jew and Gentile alike with sin, Paul explains how God displays his righteousness through Christ.",
+    "distinction": "God justifies believers freely on account of Christ’s redeeming work.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Romans 3",
+        "url": "https://bible.helloao.org/api/c/john-calvin/ROM/3.json",
+        "quote": "which God communicates to man, and accepts alone, and owns as righteousness"
+      }
+    ]
+  },
+  {
+    "id": "topic-election",
+    "kind": "topic",
+    "title": "Election",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Ephesians 1:3-6",
+        "note": ""
+      }
+    ],
+    "context": "Paul blesses God for choosing and adopting his people in Christ, placing election in a prayer of praise.",
+    "distinction": "God’s initiative leads to gratitude and holiness. Christian traditions differ on how election relates to human response.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Ephesians 1",
+        "url": "https://bible.helloao.org/api/c/john-calvin/EPH/1.json",
+        "quote": "The lofty terms in which he extolls the grace of God toward the Ephesians, are intended to rouse their hearts to gratitude"
+      }
+    ]
+  },
+  {
+    "id": "topic-providence",
+    "kind": "topic",
+    "title": "Providence",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Genesis 50:15-21",
+        "note": ""
+      }
+    ],
+    "context": "After Jacob dies, Joseph’s brothers fear retaliation for selling him. Joseph names both their evil intent and God’s saving purpose.",
+    "distinction": "God can accomplish good through events that involve real wrongdoing. Joseph responds with provision and mercy.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Genesis 50",
+        "url": "https://bible.helloao.org/api/c/john-gill/GEN/50.json",
+        "quote": "he designed good should come by it, and he brought good out of it"
+      }
+    ]
+  },
+  {
+    "id": "topic-lament",
+    "kind": "topic",
+    "title": "Lament",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Psalm 13:1-6",
+        "note": ""
+      }
+    ],
+    "context": "The psalm moves from repeated questions to petition and ultimately to confidence in God’s steadfast love.",
+    "distinction": "Faith can name the distress honestly, ask for help, and cling to God’s character.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Psalm 13",
+        "url": "https://bible.helloao.org/api/c/john-calvin/PSA/13.json",
+        "quote": "by faith we apprehend his invisible providence"
+      }
+    ]
+  },
+  {
+    "id": "topic-peacemaking",
+    "kind": "topic",
+    "title": "Peacemaking",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Matthew 5:9",
+        "note": ""
+      }
+    ],
+    "context": "Jesus blesses peacemakers among the Beatitudes that describe life in his kingdom.",
+    "distinction": "Actively seek reconciliation in ways that reflect God’s character.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Matthew 5",
+        "url": "https://bible.helloao.org/api/c/john-calvin/MAT/5.json",
+        "quote": "labor to settle differences among others"
+      }
+    ]
+  },
+  {
+    "id": "topic-love-of-enemies",
+    "kind": "topic",
+    "title": "Love of Enemies",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Matthew 5:43-48",
+        "note": ""
+      }
+    ],
+    "context": "Jesus points to the Father who sends sun and rain on the righteous and unrighteous alike.",
+    "distinction": "Pray for opponents and extend practical goodwill without waiting for reciprocity.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Matthew 5",
+        "url": "https://bible.helloao.org/api/c/john-gill/MAT/5.json",
+        "quote": "his person be loved, tenderness be used to him, and pity shown him"
+      }
+    ]
+  },
+  {
+    "id": "topic-justice-mercy",
+    "kind": "topic",
+    "title": "Justice & Mercy",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Micah 6:6-8",
+        "note": ""
+      }
+    ],
+    "context": "In a covenant dispute, extravagant proposed sacrifices lead to a reminder of the life God requires.",
+    "distinction": "Practice justice, love mercy, and walk humbly with God in ordinary decisions.",
+    "insights": [
+      {
+        "author": "Matthew Henry",
+        "source": "Exposition of the Old and New Testaments · Micah 6",
+        "url": "https://bible.helloao.org/api/c/matthew-henry/MIC/6.json",
+        "quote": "we must delight in it, as our God does, must be glad of an opportunity to do good, and do it cheerfully"
+      }
+    ]
+  },
+  {
+    "id": "topic-parents-children",
+    "kind": "topic",
+    "title": "Parents & Children",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Ephesians 6:1-4",
+        "note": ""
+      }
+    ],
+    "context": "Paul addresses children and fathers in turn, giving duties to both within the household.",
+    "distinction": "Children honor parents, and parents exercise authority through patient, Christ-centered nurture.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Ephesians 6",
+        "url": "https://bible.helloao.org/api/c/john-calvin/EPH/6.json",
+        "quote": "Obedience is the evidence of that honor which children owe to their parents"
+      }
+    ]
+  },
+  {
+    "id": "topic-singleness",
+    "kind": "topic",
+    "title": "Singleness",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "1 Corinthians 7:25-35",
+        "note": ""
+      }
+    ],
+    "context": "Paul weighs marriage and singleness against present distress and the advantage of undivided devotion.",
+    "distinction": "Recognize singleness as a real opportunity to serve the Lord, while honoring the freedom to marry.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · 1 Corinthians 7",
+        "url": "https://bible.helloao.org/api/c/john-gill/1CO/7.json",
+        "quote": "they might be more free from the cares and encumbrances of life, and more at liberty to serve the Lord"
+      }
+    ]
+  },
+  {
+    "id": "topic-sexual-integrity",
+    "kind": "topic",
+    "title": "Sexual Integrity",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "1 Corinthians 6:12-20",
+        "note": ""
+      }
+    ],
+    "context": "Paul grounds bodily conduct in union with Christ, future resurrection, and the Spirit’s presence.",
+    "distinction": "Honor God with the body because it belongs to Christ.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · 1 Corinthians 6",
+        "url": "https://bible.helloao.org/api/c/john-gill/1CO/6.json",
+        "quote": "which lays her under the greatest obligation to preserve an inviolable chastity to him, and to love and honour him"
+      }
+    ]
+  },
+  {
+    "id": "topic-civil-authority",
+    "kind": "topic",
+    "title": "Civil Authority",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Romans 13:1-7",
+        "note": ""
+      }
+    ],
+    "context": "After forbidding personal vengeance in chapter 12, Paul explains the public responsibilities of rulers and subjects.",
+    "distinction": "Respect rightful authority and meet civil obligations, with loyalty to God remaining supreme (Acts 5:29).",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Romans 13",
+        "url": "https://bible.helloao.org/api/c/john-gill/ROM/13.json",
+        "quote": "such duties as were relative to them as members of a civil society"
+      }
+    ]
+  },
+  {
+    "id": "topic-grief",
+    "kind": "topic",
+    "title": "Grief",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "1 Thessalonians 4:13-18",
+        "note": ""
+      }
+    ],
+    "context": "Paul comforts believers worried that Christians who died might miss the Lord’s return.",
+    "distinction": "Grieve with the hope that the risen Jesus will gather his people, including those who have died.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · 1 Thessalonians 4",
+        "url": "https://bible.helloao.org/api/c/john-calvin/1TH/4.json",
+        "quote": "Let, therefore, the grief of the pious be mixed with consolation, which may train them to patience."
+      }
+    ]
+  },
+  {
+    "id": "topic-creation-stewardship",
+    "kind": "topic",
+    "title": "Creation & Stewardship",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Genesis 2:8-15",
+        "note": ""
+      }
+    ],
+    "context": "God places the human in the garden and gives him the work of cultivating and keeping it.",
+    "distinction": "Treat care for creation as part of responsible human work under God.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Genesis 2",
+        "url": "https://bible.helloao.org/api/c/john-calvin/GEN/2.json",
+        "quote": "let every one regard himself as the steward of God in all things which he possesses"
+      }
+    ]
+  },
+  {
+    "id": "topic-evangelism",
+    "kind": "topic",
+    "title": "Evangelism",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Acts 1:6-8",
+        "note": ""
+      }
+    ],
+    "context": "Jesus redirects the disciples from calculating the kingdom’s timing to bearing Spirit-empowered witness.",
+    "distinction": "Bear witness to Christ across geographic and social boundaries.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Acts 1",
+        "url": "https://bible.helloao.org/api/c/john-gill/ACT/1.json",
+        "quote": "their business was to testify of the sufferings of Christ, and the glory that followed"
+      }
+    ]
+  },
+  {
+    "id": "topic-fasting",
+    "kind": "topic",
+    "title": "Fasting",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Matthew 6:16-18",
+        "note": ""
+      }
+    ],
+    "context": "Jesus addresses fasting alongside giving and praying, warning against piety performed for public praise.",
+    "distinction": "When you fast, direct the practice to God and keep it free of display.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Matthew 6",
+        "url": "https://bible.helloao.org/api/c/john-calvin/MAT/6.json",
+        "quote": "to have God as the witness of their actions"
+      }
+    ]
+  },
+  {
+    "id": "passage-genesis-1-26",
+    "kind": "passage",
+    "title": "Genesis 1:26",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Genesis 1:26-28",
+        "note": ""
+      }
+    ],
+    "context": "The plural deliberation is followed by singular narration in verse 27. The passage identifies humanity, male and female, as God’s image.",
+    "distinction": "The immediate emphasis is human dignity and vocation. Christians may read the plural in light of later revelation while recognizing other proposed explanations.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Genesis 1",
+        "url": "https://bible.helloao.org/api/c/john-calvin/GEN/1.json",
+        "quote": "when he approaches the most excellent of all his works, he enters into consultation"
+      }
+    ]
+  },
+  {
+    "id": "passage-genesis-3-15",
+    "kind": "passage",
+    "title": "Genesis 3:15",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Genesis 3:14-15",
+        "note": ""
+      }
+    ],
+    "context": "God’s judgment on the serpent announces lasting conflict between the serpent and the woman’s offspring.",
+    "distinction": "Christians see an early anticipation of victory over evil fulfilled in Christ. The immediate oracle speaks in the language of offspring and conflict.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Genesis 3",
+        "url": "https://bible.helloao.org/api/c/john-calvin/GEN/3.json",
+        "quote": "the whole Church of God, under its Head, will gloriously exult over him"
+      }
+    ]
+  },
+  {
+    "id": "passage-genesis-22-2",
+    "kind": "passage",
+    "title": "Genesis 22:2",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Genesis 22:1-14",
+        "note": ""
+      }
+    ],
+    "context": "The narrator calls the command a test. God stops Abraham and provides a ram in Isaac’s place.",
+    "distinction": "Read the event as a unique test of Abraham’s trust in God’s promise, ending with God’s provision.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Genesis 22",
+        "url": "https://bible.helloao.org/api/c/john-calvin/GEN/22.json",
+        "quote": "whatever favor he could hope for from God, was included in this single promise"
+      }
+    ]
+  },
+  {
+    "id": "passage-exodus-9-12",
+    "kind": "passage",
+    "title": "Exodus 9:12",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Exodus 9:8-12",
+        "note": ""
+      }
+    ],
+    "context": "The plague narrative also describes Pharaoh hardening his own heart (8:15, 32). Here God hardens Pharaoh as foretold.",
+    "distinction": "Hold together God’s sovereign judgment and Pharaoh’s culpable refusal. The text affirms both.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Exodus 9",
+        "url": "https://bible.helloao.org/api/c/john-gill/EXO/9.json",
+        "quote": "He having often, and so long hardened his own heart, God gave him up to judicial hardness of heart"
+      }
+    ]
+  },
+  {
+    "id": "passage-exodus-20-5",
+    "kind": "passage",
+    "title": "Exodus 20:5",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Exodus 20:4-6",
+        "note": ""
+      }
+    ],
+    "context": "The warning about generations occurs in the prohibition of idolatry and stands alongside much wider covenant mercy.",
+    "distinction": "Idolatry has generational consequences. Ezekiel 18:20 also affirms that each person answers for his own sin.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Exodus 20",
+        "url": "https://bible.helloao.org/api/c/john-gill/EXO/20.json",
+        "quote": "meaning chiefly, if not solely, the iniquity of idolatry"
+      }
+    ]
+  },
+  {
+    "id": "passage-leviticus-19-28",
+    "kind": "passage",
+    "title": "Leviticus 19:28",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Leviticus 19:26-28",
+        "note": ""
+      }
+    ],
+    "context": "These commands address Israel’s holiness, placing marks for the dead alongside practices surrounding mourning and divination.",
+    "distinction": "Read the prohibition within Israel’s covenant and consider the practice’s purpose and associations when applying its principle today.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Leviticus 19",
+        "url": "https://bible.helloao.org/api/c/john-gill/LEV/19.json",
+        "quote": "there were who marked their bodies with a known figure, by burning, for the dead"
+      }
+    ]
+  },
+  {
+    "id": "passage-deuteronomy-6-4",
+    "kind": "passage",
+    "title": "Deuteronomy 6:4",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Deuteronomy 6:4-9",
+        "note": ""
+      }
+    ],
+    "context": "Israel’s confession of the one LORD introduces the command to love him wholly and teach his words at home.",
+    "distinction": "The confession demands exclusive allegiance to the LORD and grounds daily instruction in his word.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Deuteronomy 6",
+        "url": "https://bible.helloao.org/api/c/john-calvin/DEU/6.json",
+        "quote": "unless they abode in the One God, who had laid them under such obligations to Himself"
+      }
+    ]
+  },
+  {
+    "id": "passage-joshua-1-9",
+    "kind": "passage",
+    "title": "Joshua 1:9",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Joshua 1:6-9",
+        "note": ""
+      }
+    ],
+    "context": "God commissions Joshua to lead Israel after Moses and ties courage to obedience to the law.",
+    "distinction": "Take courage in following God faithfully. The conquest commission belongs to Joshua’s historical task.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Joshua 1",
+        "url": "https://bible.helloao.org/api/c/john-calvin/JOS/1.json",
+        "quote": "the Lord, by bringing his own authority distinctly forward, relieves his servant from care and hesitancy"
+      }
+    ]
+  },
+  {
+    "id": "passage-judges-6-36-40",
+    "kind": "passage",
+    "title": "Judges 6:36–40",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Judges 6:36-40",
+        "note": ""
+      }
+    ],
+    "context": "Gideon asks for two signs after receiving a clear commission and seeing God’s earlier sign.",
+    "distinction": "God’s patience with Gideon encourages fearful people. The story records his hesitation and God’s accommodation.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Judges 6",
+        "url": "https://bible.helloao.org/api/c/john-gill/JDG/6.json",
+        "quote": "was willing to have a confirmation of his faith"
+      }
+    ]
+  },
+  {
+    "id": "passage-1-samuel-16-7",
+    "kind": "passage",
+    "title": "1 Samuel 16:7",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "1 Samuel 16:6-13",
+        "note": ""
+      }
+    ],
+    "context": "Samuel assumes Eliab’s appearance makes him the right king. God chooses David from among Jesse’s sons.",
+    "distinction": "Recognize the limits of outward assessment. God sees character and purposes beyond what viewers can judge.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · 1 Samuel 16",
+        "url": "https://bible.helloao.org/api/c/john-gill/1SA/16.json",
+        "quote": "the inward qualifications and endowments of the mind are seen by the Lord"
+      }
+    ]
+  },
+  {
+    "id": "passage-2-chronicles-7-14",
+    "kind": "passage",
+    "title": "2 Chronicles 7:14",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "2 Chronicles 7:12-16",
+        "note": ""
+      }
+    ],
+    "context": "God answers Solomon after the temple dedication, naming drought and other covenant judgments upon Israel.",
+    "distinction": "The promise concerns Israel, the temple, and its land. Its call to humble prayer and repentance has enduring relevance.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · 2 Chronicles 7",
+        "url": "https://bible.helloao.org/api/c/john-gill/2CH/7.json",
+        "quote": "when the people of Israel should humble themselves in prayer and supplication, the Lord would be attentive to them, and forgive them"
+      }
+    ]
+  },
+  {
+    "id": "passage-job-1-21",
+    "kind": "passage",
+    "title": "Job 1:21",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Job 1:20-22",
+        "note": ""
+      }
+    ],
+    "context": "Job tears his robe and mourns before worshiping God in response to terrible loss.",
+    "distinction": "Grief and worship can coexist. Job’s response acknowledges dependence on God amid unexplained loss.",
+    "insights": [
+      {
+        "author": "Matthew Henry",
+        "source": "Exposition of the Old and New Testaments · Job 1",
+        "url": "https://bible.helloao.org/api/c/matthew-henry/JOB/1.json",
+        "quote": "Death strips us of all our enjoyments; clothing can neither warm nor adorn a dead body."
+      }
+    ]
+  },
+  {
+    "id": "passage-psalm-37-4",
+    "kind": "passage",
+    "title": "Psalm 37:4",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Psalm 37:3-7",
+        "note": ""
+      }
+    ],
+    "context": "The psalm counsels the righteous against envy when wrongdoers prosper, urging trust and patient waiting.",
+    "distinction": "Delight in God within the psalm’s pattern of entrusting your way to him.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Psalm 37",
+        "url": "https://bible.helloao.org/api/c/john-calvin/PSA/37.json",
+        "quote": "the vain and fickle joys with which the world is deluded, and the true repose enjoyed by the godly"
+      }
+    ]
+  },
+  {
+    "id": "passage-psalm-46-10",
+    "kind": "passage",
+    "title": "Psalm 46:10",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Psalm 46:8-11",
+        "note": ""
+      }
+    ],
+    "context": "The psalm calls readers to see God end wars and declare his supremacy among the nations.",
+    "distinction": "The call to be still summons surrender before God’s rule. It also comforts those who take refuge in him.",
+    "insights": [
+      {
+        "author": "Matthew Henry",
+        "source": "Exposition of the Old and New Testaments · Psalm 46",
+        "url": "https://bible.helloao.org/api/c/matthew-henry/PSA/46.json",
+        "quote": "Let his enemies be still, and threaten no more"
+      }
+    ]
+  },
+  {
+    "id": "passage-psalm-51-5",
+    "kind": "passage",
+    "title": "Psalm 51:5",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Psalm 51:1-6",
+        "note": ""
+      }
+    ],
+    "context": "David confesses particular sins and also describes the depth of his corruption from the beginning of life.",
+    "distinction": "Confession goes deeper than isolated acts. David appeals to divine mercy for his whole condition.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Psalm 51",
+        "url": "https://bible.helloao.org/api/c/john-gill/PSA/51.json",
+        "quote": "it is beside his scope and design to expose the sins of others, much less his own parents"
+      }
+    ]
+  },
+  {
+    "id": "passage-psalm-82-6",
+    "kind": "passage",
+    "title": "Psalm 82:6",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Psalm 82:1-8",
+        "note": ""
+      }
+    ],
+    "context": "God rebukes unjust figures called gods and announces that they will die like men. Their identity is debated.",
+    "distinction": "The psalm centers on God’s judgment of unjust rule. Jesus invokes its wording in John 10:34–36 during his defense.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Psalm 82",
+        "url": "https://bible.helloao.org/api/c/john-gill/PSA/82.json",
+        "quote": "he constituted them judges and magistrates, invested them with such an office, by which they came to have this title"
+      }
+    ]
+  },
+  {
+    "id": "passage-psalm-137-9",
+    "kind": "passage",
+    "title": "Psalm 137:9",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Psalm 137:7-9",
+        "note": ""
+      }
+    ],
+    "context": "An exile remembers Jerusalem’s destruction and voices a horrifying reversal against Babylon.",
+    "distinction": "Read the cry in the setting of trauma and divine judgment. Romans 12:19 entrusts vengeance to God.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Psalm 137",
+        "url": "https://bible.helloao.org/api/c/john-gill/PSA/137.json",
+        "quote": "Nor is this desired from a spirit of revenge, but for the glory of divine justice"
+      }
+    ]
+  },
+  {
+    "id": "passage-proverbs-22-6",
+    "kind": "passage",
+    "title": "Proverbs 22:6",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Proverbs 22:6",
+        "note": ""
+      }
+    ],
+    "context": "The saying is part of a collection of short wisdom observations about patterns in life. Its expression about the child’s way is debated.",
+    "distinction": "Take formative training seriously and read this as wisdom about a pattern in life.",
+    "insights": [
+      {
+        "author": "Matthew Henry",
+        "source": "Exposition of the Old and New Testaments · Proverbs 22",
+        "url": "https://bible.helloao.org/api/c/matthew-henry/PRO/22.json",
+        "quote": "But early training may be a means of their recovering themselves"
+      }
+    ]
+  },
+  {
+    "id": "passage-ecclesiastes-3-1",
+    "kind": "passage",
+    "title": "Ecclesiastes 3:1",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Ecclesiastes 3:1-11",
+        "note": ""
+      }
+    ],
+    "context": "The poem names contrasting seasons before reflecting on human inability to grasp God’s work from beginning to end.",
+    "distinction": "Attend to the season you are in with humility about your control over events.",
+    "insights": [
+      {
+        "author": "Matthew Henry",
+        "source": "Exposition of the Old and New Testaments · Ecclesiastes 3",
+        "url": "https://bible.helloao.org/api/c/matthew-henry/ECC/3.json",
+        "quote": "providence calls to weep and mourn"
+      }
+    ]
+  },
+  {
+    "id": "passage-isaiah-7-14",
+    "kind": "passage",
+    "title": "Isaiah 7:14",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Isaiah 7:10-17",
+        "note": ""
+      }
+    ],
+    "context": "The sign is given to Ahaz amid the Syro-Ephraimite crisis, with an approaching change before the child matures.",
+    "distinction": "Read the sign in Ahaz’s crisis and in Matthew 1:22–23, where Jesus’ birth fulfills Immanuel in its climactic sense.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Isaiah 7",
+        "url": "https://bible.helloao.org/api/c/john-calvin/ISA/7.json",
+        "quote": "Ahaz had already refused the sign which the Lord offered to him"
+      }
+    ]
+  },
+  {
+    "id": "passage-isaiah-53-5",
+    "kind": "passage",
+    "title": "Isaiah 53:5",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Isaiah 53:4-6",
+        "note": ""
+      }
+    ],
+    "context": "The servant bears the sorrows and iniquities of others, with healing tied to their straying and guilt.",
+    "distinction": "The servant secures restoration by bearing sin. Matthew 8:17 also connects the servant to Jesus’ healing ministry.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Isaiah 53",
+        "url": "https://bible.helloao.org/api/c/john-calvin/ISA/53.json",
+        "quote": "by his death our sins have been expiated, and salvation has been obtained for us"
+      }
+    ]
+  },
+  {
+    "id": "passage-ezekiel-18-20",
+    "kind": "passage",
+    "title": "Ezekiel 18:20",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Ezekiel 18:19-23",
+        "note": ""
+      }
+    ],
+    "context": "Ezekiel answers the exiles’ complaint about inherited guilt by contrasting the conduct of parents and children.",
+    "distinction": "God calls each person to repent and answers each for their conduct. Harm can still reach across generations.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Ezekiel 18",
+        "url": "https://bible.helloao.org/api/c/john-calvin/EZK/18.json",
+        "quote": "God is a just judge and treats every one according to his conduct"
+      }
+    ]
+  },
+  {
+    "id": "passage-malachi-3-10",
+    "kind": "passage",
+    "title": "Malachi 3:10",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Malachi 3:8-12",
+        "note": ""
+      }
+    ],
+    "context": "God addresses Israel’s withholding of tithes that supplied the temple storehouse and promises covenant blessings in the land.",
+    "distinction": "Take worship and material faithfulness seriously, and read the provision promised here within Israel’s covenant.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Malachi 3",
+        "url": "https://bible.helloao.org/api/c/john-gill/MAL/3.json",
+        "quote": "there were places in the temple where the tithe was put, and from thence distributed to the priests and Levites"
+      }
+    ]
+  },
+  {
+    "id": "passage-matthew-5-17",
+    "kind": "passage",
+    "title": "Matthew 5:17",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Matthew 5:17-20",
+        "note": ""
+      }
+    ],
+    "context": "Jesus states his relation to the Law and Prophets before showing the depth of kingdom righteousness in the rest of the chapter.",
+    "distinction": "Read the Scriptures through Jesus’ fulfillment and hear his call for righteousness that reaches the heart.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Matthew 5",
+        "url": "https://bible.helloao.org/api/c/john-calvin/MAT/5.json",
+        "quote": "what had hitherto appeared only in figures"
+      }
+    ]
+  },
+  {
+    "id": "passage-matthew-5-29",
+    "kind": "passage",
+    "title": "Matthew 5:29",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Matthew 5:27-30",
+        "note": ""
+      }
+    ],
+    "context": "The eye and hand sayings follow Jesus’ diagnosis of lust as a matter of the heart.",
+    "distinction": "The severe imagery calls for decisive removal of occasions for sin. The heart remains the target.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Matthew 5",
+        "url": "https://bible.helloao.org/api/c/john-calvin/MAT/5.json",
+        "quote": "the justice of God ought to stand higher in our estimation"
+      }
+    ]
+  },
+  {
+    "id": "passage-matthew-7-7",
+    "kind": "passage",
+    "title": "Matthew 7:7",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Matthew 7:7-11",
+        "note": ""
+      }
+    ],
+    "context": "Jesus compares God’s hearing of prayer to a father giving good things to children.",
+    "distinction": "Ask confidently with trust in the Father’s goodness and judgment about what to give.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Matthew 7",
+        "url": "https://bible.helloao.org/api/c/john-gill/MAT/7.json",
+        "quote": "asking of God in prayer, for such things as are wanting"
+      }
+    ]
+  },
+  {
+    "id": "passage-matthew-12-31-32",
+    "kind": "passage",
+    "title": "Matthew 12:31–32",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Matthew 12:22-32",
+        "note": ""
+      }
+    ],
+    "context": "Jesus responds after opponents attribute a Spirit-empowered deliverance to the ruler of demons.",
+    "distinction": "The warning concerns a grave rejection of the Spirit’s testimony to Jesus. Its setting helps distinguish it from anxious intrusive thoughts.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Matthew 12",
+        "url": "https://bible.helloao.org/api/c/john-calvin/MAT/12.json",
+        "quote": "knowingly and willingly to pour contempt on the Spirit of God"
+      }
+    ]
+  },
+  {
+    "id": "passage-matthew-16-18",
+    "kind": "passage",
+    "title": "Matthew 16:18",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Matthew 16:13-20",
+        "note": ""
+      }
+    ],
+    "context": "Jesus speaks after Peter confesses him as the Christ, the Son of the living God.",
+    "distinction": "Christ builds and preserves his church. Traditions differ over how Peter, his confession, and later church authority relate to the rock.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Matthew 16",
+        "url": "https://bible.helloao.org/api/c/john-calvin/MAT/16.json",
+        "quote": "Christ declares how highly he is delighted with the confession of Peter"
+      }
+    ]
+  },
+  {
+    "id": "passage-matthew-19-24",
+    "kind": "passage",
+    "title": "Matthew 19:24",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Matthew 19:16-26",
+        "note": ""
+      }
+    ],
+    "context": "A rich man walks away grieving. The disciples are astonished when Jesus describes the difficulty of a rich person entering the kingdom.",
+    "distinction": "Receive salvation as something God makes possible. Wealth can expose rival allegiance.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Matthew 19",
+        "url": "https://bible.helloao.org/api/c/john-calvin/MAT/19.json",
+        "quote": "it is proper that they should perceive how difficult it is to ascend"
+      }
+    ]
+  },
+  {
+    "id": "passage-matthew-24-34",
+    "kind": "passage",
+    "title": "Matthew 24:34",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Matthew 24:29-36",
+        "note": ""
+      }
+    ],
+    "context": "Jesus speaks of tribulation and his coming in a discourse prompted by questions about the temple and the end.",
+    "distinction": "Take seriously both the assurance of fulfillment and the unknown day and hour. Interpretations differ over the scope of “this generation.”",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Matthew 24",
+        "url": "https://bible.helloao.org/api/c/john-calvin/MAT/24.json",
+        "quote": "within fifty years the city was destroyed and the temple was razed"
+      }
+    ]
+  },
+  {
+    "id": "passage-mark-16-16",
+    "kind": "passage",
+    "title": "Mark 16:16",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Mark 16:15-16",
+        "note": ""
+      }
+    ],
+    "context": "The commission pairs faith and baptism, and explicitly names unbelief in the condemnation clause. These verses belong to the disputed longer ending.",
+    "distinction": "Distinguish the ordinary summons to believe and be baptized from the textual question about Mark 16:9–20.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Mark 16",
+        "url": "https://bible.helloao.org/api/c/john-gill/MRK/16.json",
+        "quote": "who comes to him as a poor perishing sinner, and ventures on him, and commits himself to him, and lives upon him"
+      }
+    ]
+  },
+  {
+    "id": "passage-luke-14-26",
+    "kind": "passage",
+    "title": "Luke 14:26",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Luke 14:25-33",
+        "note": ""
+      }
+    ],
+    "context": "Jesus addresses crowds about counting the cost. Family and even one’s own life appear among competing attachments.",
+    "distinction": "Give Jesus supreme allegiance, which can prove costly even in your closest relationships.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Luke 14",
+        "url": "https://bible.helloao.org/api/c/john-gill/LUK/14.json",
+        "quote": "these are not to be preferred to Christ, or loved more than he"
+      }
+    ]
+  },
+  {
+    "id": "passage-luke-23-43",
+    "kind": "passage",
+    "title": "Luke 23:43",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Luke 23:39-43",
+        "note": ""
+      }
+    ],
+    "context": "The dying criminal appeals to Jesus as king and receives a promise of being with him in Paradise.",
+    "distinction": "The promise emphasizes immediate hope and fellowship with Jesus for a man unable to establish a record of good works.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Luke 23",
+        "url": "https://bible.helloao.org/api/c/john-gill/LUK/23.json",
+        "quote": "promised him more than he asked for, and sooner than he expected"
+      }
+    ]
+  },
+  {
+    "id": "passage-john-3-5",
+    "kind": "passage",
+    "title": "John 3:5",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "John 3:1-8",
+        "note": ""
+      }
+    ],
+    "context": "Jesus tells a teacher of Israel that entering the kingdom requires birth from above. Ezekiel 36:25–27 connects cleansing with God’s Spirit.",
+    "distinction": "New birth comes from God’s Spirit and involves cleansing. Christians differ on whether water directly refers to baptism here.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · John 3",
+        "url": "https://bible.helloao.org/api/c/john-calvin/JHN/3.json",
+        "quote": "the Spirit of God is the only Author of a pure and upright nature"
+      }
+    ]
+  },
+  {
+    "id": "passage-john-6-53",
+    "kind": "passage",
+    "title": "John 6:53",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "John 6:47-58",
+        "note": ""
+      }
+    ],
+    "context": "The bread discourse repeatedly connects eternal life to believing in Jesus and speaks of his flesh given for the life of the world.",
+    "distinction": "Depend on Jesus and his life-giving death. Christians differ on the relationship between this language and the Eucharist.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · John 6",
+        "url": "https://bible.helloao.org/api/c/john-calvin/JHN/6.json",
+        "quote": "the way by which he becomes one with us, is, when our faith relies on his death"
+      }
+    ]
+  },
+  {
+    "id": "passage-john-10-30",
+    "kind": "passage",
+    "title": "John 10:30",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "John 10:27-39",
+        "note": ""
+      }
+    ],
+    "context": "Jesus’ statement follows his claim that his sheep are secure in both his hand and the Father’s hand.",
+    "distinction": "Father and Son are distinct and act with one divine power to preserve the sheep.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · John 10",
+        "url": "https://bible.helloao.org/api/c/john-gill/JHN/10.json",
+        "quote": "Christ is speaking of the impossibility of plucking any of the sheep, out of his own and his Father's hands"
+      }
+    ]
+  },
+  {
+    "id": "passage-acts-2-38",
+    "kind": "passage",
+    "title": "Acts 2:38",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Acts 2:36-41",
+        "note": ""
+      }
+    ],
+    "context": "Peter calls his hearers to repent and be baptized after announcing the risen Jesus as Lord and Christ.",
+    "distinction": "Baptism is the commanded public response to the gospel. Traditions differ on how baptism relates to forgiveness here.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · Acts 2",
+        "url": "https://bible.helloao.org/api/c/john-gill/ACT/2.json",
+        "quote": "consider him, and believe in him, as the true Messiah and Saviour of the world"
+      }
+    ]
+  },
+  {
+    "id": "passage-romans-7-19",
+    "kind": "passage",
+    "title": "Romans 7:19",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Romans 7:14-25",
+        "note": ""
+      }
+    ],
+    "context": "Paul describes a conflict involving desire, sin, and the law before crying out for rescue through Jesus Christ.",
+    "distinction": "The passage exposes sin’s grip and directs readers to Christ. Interpreters differ on whose experience Paul portrays.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Romans 7",
+        "url": "https://bible.helloao.org/api/c/john-calvin/ROM/7.json",
+        "quote": "the faithful, however rightly they may be influenced, are yet so conscious of their own infirmity"
+      }
+    ]
+  },
+  {
+    "id": "passage-romans-9-13",
+    "kind": "passage",
+    "title": "Romans 9:13",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Romans 9:6-18",
+        "note": ""
+      }
+    ],
+    "context": "Paul quotes Malachi’s account of Jacob and Esau as part of his argument that God’s word to Israel has held firm.",
+    "distinction": "God’s saving purpose depends on his mercy and initiative. The argument uses individuals with covenant and national significance.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Romans 9",
+        "url": "https://bible.helloao.org/api/c/john-calvin/ROM/9.json",
+        "quote": "Jacob obtained this favor through the kindness of God, and not through his own merit"
+      }
+    ]
+  },
+  {
+    "id": "passage-1-corinthians-6-9-10",
+    "kind": "passage",
+    "title": "1 Corinthians 6:9–10",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "1 Corinthians 6:9-11",
+        "note": ""
+      }
+    ],
+    "context": "Paul addresses a church embroiled in disputes, lists conduct at odds with God’s kingdom, and recalls their washing and justification.",
+    "distinction": "Take the warning and promise together. Christ cleanses sinners and calls them to a changed life.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · 1 Corinthians 6",
+        "url": "https://bible.helloao.org/api/c/john-calvin/1CO/6.json",
+        "quote": "those who inflict injury on their brethren, who defraud or circumvent others"
+      }
+    ]
+  },
+  {
+    "id": "passage-galatians-3-28",
+    "kind": "passage",
+    "title": "Galatians 3:28",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Galatians 3:26-29",
+        "note": ""
+      }
+    ],
+    "context": "Paul reasons from faith and baptism into Christ to equal status as heirs of Abraham’s promise.",
+    "distinction": "Ethnic, social, and sexual distinctions confer no privileged claim to the inheritance. Other passages inform particular questions about church roles.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Galatians 3",
+        "url": "https://bible.helloao.org/api/c/john-calvin/GAL/3.json",
+        "quote": "Whatever may have been their former differences, Christ alone is able to unite them all."
+      }
+    ]
+  },
+  {
+    "id": "passage-ephesians-5-22",
+    "kind": "passage",
+    "title": "Ephesians 5:22",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Ephesians 5:21-33",
+        "note": ""
+      }
+    ],
+    "context": "The marriage instructions follow a call to submit to one another and culminate in an extended command for husbands to love as Christ did.",
+    "distinction": "Read the instructions together under Christ’s authority. The pattern of husbandly love is self-sacrifice.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Ephesians 5",
+        "url": "https://bible.helloao.org/api/c/john-calvin/EPH/5.json",
+        "quote": "some are more closely bound to each other, according to their respective callings"
+      }
+    ]
+  },
+  {
+    "id": "passage-1-timothy-2-12",
+    "kind": "passage",
+    "title": "1 Timothy 2:12",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "1 Timothy 2:8-15",
+        "note": ""
+      }
+    ],
+    "context": "The instructions sit within counsel for congregational conduct and appeal to creation. The meaning and scope of the authority language are debated.",
+    "distinction": "Read the teaching together with Paul’s positive command that women learn. Churches differ on how the prohibition applies to teaching offices.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · 1 Timothy 2",
+        "url": "https://bible.helloao.org/api/c/john-gill/1TI/2.json",
+        "quote": "Timothy, no doubt, received much advantage, from the private teachings and instructions of his mother Eunice"
+      }
+    ]
+  },
+  {
+    "id": "passage-hebrews-6-4-6",
+    "kind": "passage",
+    "title": "Hebrews 6:4–6",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "Hebrews 6:4-12",
+        "note": ""
+      }
+    ],
+    "context": "A sharp warning about falling away is followed by a field analogy and confidence in better things concerning the readers.",
+    "distinction": "Take apostasy seriously and pursue persevering faith. Reformed and other readings differ on the prior spiritual state described.",
+    "insights": [
+      {
+        "author": "John Calvin",
+        "source": "Commentaries (Calvin Translation Society) · Hebrews 6",
+        "url": "https://bible.helloao.org/api/c/john-calvin/HEB/6.json",
+        "quote": "the Apostle does not without reason forewarn all the disciples of Christ to beware in time"
+      }
+    ]
+  },
+  {
+    "id": "passage-james-2-24",
+    "kind": "passage",
+    "title": "James 2:24",
+    "summary": "",
+    "verses": [
+      {
+        "ref": "James 2:14-26",
+        "note": ""
+      }
+    ],
+    "context": "James challenges someone who claims faith without works, using Abraham’s obedience and Rahab’s protection of the messengers.",
+    "distinction": "Living faith acts. James tests an empty profession, and Paul in Romans 3 rejects reliance on works for justification.",
+    "insights": [
+      {
+        "author": "John Gill",
+        "source": "Exposition of the Old and New Testaments · James 2",
+        "url": "https://bible.helloao.org/api/c/john-gill/JAS/2.json",
+        "quote": "Not as causes procuring his justification, but as effects declaring it"
+      }
+    ]
   }
 ]
